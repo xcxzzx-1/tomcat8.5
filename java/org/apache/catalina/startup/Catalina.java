@@ -602,6 +602,7 @@ public class Catalina {
         initStreams();
 
         // Start the new server
+        System.out.println("## 605 Catalina-getServer().init()");
         try {
             getServer().init();
         } catch (LifecycleException e) {

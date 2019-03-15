@@ -76,6 +76,7 @@ final class StandardHostValve extends ValveBase {
     //------------------------------------------------------ Constructor
     public StandardHostValve() {
         super(true);
+        System.out.println("##### org.apache.catalina.core.StandardHostValve#StandardHostValve() ");
     }
 
 

@@ -455,9 +455,11 @@ public class StandardPipeline extends LifecycleBase
     @Override
     public Valve getFirst() {
         if (first != null) {
+            System.out.println("## StandardPipeline.getFirst() : " + first.getClass() + " ##");
             return first;
         }
 
+        System.out.println("## StandardPipeline.getFirst().basic : " + basic.getClass() + " ##");
         return basic;
     }
 }

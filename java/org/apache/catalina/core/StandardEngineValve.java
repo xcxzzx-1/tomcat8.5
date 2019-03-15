@@ -41,6 +41,7 @@ final class StandardEngineValve extends ValveBase {
     //------------------------------------------------------ Constructor
     public StandardEngineValve() {
         super(true);
+        System.out.println("##### org.apache.catalina.core.StandardEngineValve#StandardEngineValve() ");
     }
 
 

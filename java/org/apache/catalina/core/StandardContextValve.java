@@ -45,6 +45,7 @@ final class StandardContextValve extends ValveBase {
 
     public StandardContextValve() {
         super(true);
+        System.out.println("##### org.apache.catalina.core.StandardContextValve#StandardContextValve() ");
     }
 
 

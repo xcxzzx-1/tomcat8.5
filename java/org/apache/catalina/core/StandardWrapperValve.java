@@ -53,6 +53,7 @@ final class StandardWrapperValve
     //------------------------------------------------------ Constructor
     public StandardWrapperValve() {
         super(true);
+        System.out.println("##### org.apache.catalina.core.StandardWrapperValve#StandardWrapperValve() ");
     }
 
     // ----------------------------------------------------- Instance Variables
